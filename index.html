@@ -9,18 +9,29 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style media="screen">
+      ul.nav a:hover { color: #e7e7e7 !important; }
+    </style>
   </head>
   <body>
 
     <div class="container">
-      <h1>FillItUp Co.</h1>
-      <div class="navbar">
-        <h4>A Made up company, selling a made up language</h4>
-
-        <span class="navbar-btn"><a href="http://www.lipsum.com/">Facts</a></span> |
-        <span class="navbar-btn"><a href="https://en.wikipedia.org/wiki/Lorem_ipsum">What is Lorem ipsum?</a></span> |
-        <span class="navbar-btn"><a href="http://www.lipsum.com/feed/html">See us in Action!</a></span>
-      </div>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"></button>
+            <a class="navbar-brand" href="#">FillItUp Co.</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="http://www.lipsum.com/">Facts</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Lorem_ipsum">What is Lorem ipsum?</a></li>
+              <li><a href="http://www.lipsum.com/feed/html">See us in Action!</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <div class="row">
         <div class="col-md-6">
           <p>Using our patented Lorem Ipsum system, we sell you fake words that look like real ones! I guess you could type in words yourself or copy them from literally anywhere else!</p>
